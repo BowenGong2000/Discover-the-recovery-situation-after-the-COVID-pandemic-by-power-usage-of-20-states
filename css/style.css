@@ -1,0 +1,29 @@
+body{
+    color: #404040;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.title{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
+svg{
+    padding: 20px;
+}
+.subtitle{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin: 20px ;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+}

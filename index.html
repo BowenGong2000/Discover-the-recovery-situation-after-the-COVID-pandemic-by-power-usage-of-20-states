@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Power Usage Analysis</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/d3.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/jQuery.min.js" charset="utf-8"></script>
+    <!-- <script type="text/javascript" src="js/topojson.min.js" charset="utf-8"></script> -->
+
+    <script type="text/javascript" src="js/index.js"></script>
+
+</head>
+
+<body>
+    <div class="title"> Power Usage Analysis of USA  </div>
+    <div class="description"> 
+        
+    </div>
+    <div id="container" class="container">
+        <div id="yeartrend" class="content">
+            <div class="subtitle" id="yeartrendtitle">Total Power Usage Trend of 2019 and 2020</div>
+            <select name="lineselection" id="linetabs">
+                <option>Total power usage</option>
+                <option>Commercial power usage</option>
+                <option>Industrial power usage</option> 
+                <option>Residential power usage</option> 
+                <option>Transportation power usage</option> 
+            </select>
+        </div>
+        <div id='topstates' class="content">
+            <div class="subtitle" id="decreasetitle">Top 20 States Decreasing in Power usage from May 2019 to May 2020</div>
+        </div>
+        <div id='recovermap' class="content">
+            <div class="subtitle" id="recovertitle">Recover Situation among US</div>
+            <select name="mapselection" id="maptabs">
+                <option>Total recovery</option>
+                <option>Commercial recovery</option>
+                <option>Industrial recovery</option> 
+            </select>
+        </div>
+    </div>
+
+</body>
+
+</html>
